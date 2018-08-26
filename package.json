@@ -1,0 +1,18 @@
+{
+  "name": "ambient-type-testing-examples",
+  "version": "1.0.0",
+  "description": "Examples of how you can write tests for TypeScript ambient types",
+  "repository": "https://github.com/mike-north/ambient-type-testing-examples",
+  "author": "Mike North (https://mike.works) <michael.l.north@gmail.com>",
+  "license": "MIT",
+  "types": "types/firetruck.d.ts",
+  "scripts": {
+      "test": "./node_modules/.bin/dtslint"
+  },
+  "private": false,
+  "devDependencies": {
+    "dtslint": "^0.3.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  }
+}
